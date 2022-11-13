@@ -15,17 +15,17 @@ Open Sans:
 
 ## Cores
 
-corpo: `#1D232A`
+corpo: ``
 
 cabeçalho: `#1D232A`
 
-cabeçalho mobile: `#15191C`
+cabeçalho mobile: ``
 
 menu lateral: `#15191C`
 
 cartão: `#2C343A`
 
-fonte: `#FFFFFF`
+fonte: ``
 
 fonte alternativa: `#95999C`
 
