@@ -60,7 +60,7 @@ Menu = `\e904`
 
 Moeda = `\e905`
 
-Notificação = `\e906`
+Notificação = ``
 
 Pico = `\e908`
 
