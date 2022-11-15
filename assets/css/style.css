@@ -108,6 +108,8 @@ border-left: 8px solid #FFFFFF;
 
 .principal{
     padding: 24px 16px;
+    display: grid;
+    gap: 16px;
 }
 .titulo-pagina{
     font-size: 1.5rem;
@@ -117,6 +119,10 @@ border-left: 8px solid #FFFFFF;
     border-radius: 15px;
     overflow: hidden;
     background-color: #2C343A;
+}
+
+.cartao--destaque{
+    margin-bottom: 16px;
 }
 
 .cartao__conteudo{
@@ -169,15 +175,20 @@ border-left: 8px solid #FFFFFF;
     height: 40px;
     border-radius: 10px;
     font-size: 0.9rem;
+    justify-self: right;
+  
+
 }
 .cartao__botao--play{
     content: "\e90b";
     font-size: 24px;
+    
 
 }
 .cartao__botao--play::before{
     content: "\e90b";
     font-size: 24px;
+    justify-self: right;
 
 }
 
@@ -189,4 +200,9 @@ border-left: 8px solid #FFFFFF;
 
 .cartao__botao--destaque::before{
     margin-right: 8px;
+}
+
+.secao{
+    display: grid;
+    gap: 16px;
 }
