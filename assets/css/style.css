@@ -20,7 +20,7 @@ body{
 
 }
 
-.cabecalho_menu i::before{
+.cabecalho__menu i::before{
     content: "\e904";
     font-size: 24px;
 }
@@ -39,6 +39,14 @@ body{
     background-color: #15191C;
     width: 75vw;
     height: 100vh;
+position: absolute;
+left:-100vw;
+transition: .35s;
+
+}
+.menu-lateral--ativo{
+left:0;
+transition: .35s;
 
 }
 .menu-lateral__logo{
@@ -55,6 +63,14 @@ body{
 
 }
 
+
+.menu-lateral__link--ativo{
+color:#FFFFFF;
+padding-left: 56px;
+border-left: 8px solid #FFFFFF;
+
+
+}
 .menu-lateral__link::before{
     content: "";
     width: 24px;
