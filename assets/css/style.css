@@ -121,16 +121,28 @@ border-left: 8px solid #FFFFFF;
 
 .cartao__conteudo{
     padding: 16px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 8px;
+    
     
 }
+.cartao__destaque{
+    grid-column: span 2;
+    
+}
+
 .cartao_titulo{
     font-size: 1.2rem;
     font-weight: 700;
+    grid-column: span 2;
+  
 }
 .cartao__perfil{
     color:#95999C;
     font-size: 0.9rem;
-
+    grid-column: span 2;
+   
 }
 
 .cartao__info{
@@ -140,11 +152,11 @@ border-left: 8px solid #FFFFFF;
 
 }
 
-.cartao__info--tempo{
+.cartao__info--tempo::before{
     content:"\e90c";
     margin-right: 8px;
 }
-.cartao__info--visualizacao{
+.cartao__info--visualizacao::before{
     content:"\e90f";
     margin-right: 8px;
 }
@@ -171,6 +183,7 @@ border-left: 8px solid #FFFFFF;
 
 .cartao__botao--destaque{
     width: 100%;
+    grid-column: span 2;
 
 }
 
