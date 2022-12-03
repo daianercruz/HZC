@@ -278,6 +278,10 @@ body {
     content: "\e90b";
     font-size: 24px;
 }
+.cartao__botao--carinho::before{
+    content: "\e901";
+    font-size: 24px;
+}
 
 .cartao__botao--destaque {
     width: 100%;
